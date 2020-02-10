@@ -33,7 +33,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Used for image and atachment handler
 gem 'paperclip', '~> 6.1.0'
+
+#Used for authentication
+gem 'sorcery'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
